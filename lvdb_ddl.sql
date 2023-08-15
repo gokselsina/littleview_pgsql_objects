@@ -61,6 +61,21 @@ CREATE SEQUENCE patrickbateman.tbl_account_id_seq
 ALTER SEQUENCE patrickbateman.tbl_account_id_seq OWNER TO lvapi;
 GRANT ALL ON SEQUENCE patrickbateman.tbl_account_id_seq TO lvapi;
 
+-- DROP SEQUENCE patrickbateman.tbl_account_id_seq1;
+
+CREATE SEQUENCE patrickbateman.tbl_account_id_seq1
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+
+-- Permissions
+
+ALTER SEQUENCE patrickbateman.tbl_account_id_seq1 OWNER TO lvapi;
+GRANT ALL ON SEQUENCE patrickbateman.tbl_account_id_seq1 TO lvapi;
+
 -- DROP SEQUENCE patrickbateman.tbl_activity_id_seq;
 
 CREATE SEQUENCE patrickbateman.tbl_activity_id_seq
@@ -75,6 +90,21 @@ CREATE SEQUENCE patrickbateman.tbl_activity_id_seq
 
 ALTER SEQUENCE patrickbateman.tbl_activity_id_seq OWNER TO lvapi;
 GRANT ALL ON SEQUENCE patrickbateman.tbl_activity_id_seq TO lvapi;
+
+-- DROP SEQUENCE patrickbateman.tbl_activity_id_seq1;
+
+CREATE SEQUENCE patrickbateman.tbl_activity_id_seq1
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+
+-- Permissions
+
+ALTER SEQUENCE patrickbateman.tbl_activity_id_seq1 OWNER TO lvapi;
+GRANT ALL ON SEQUENCE patrickbateman.tbl_activity_id_seq1 TO lvapi;
 
 -- DROP SEQUENCE patrickbateman.tbl_announcement_id_seq;
 
@@ -91,6 +121,21 @@ CREATE SEQUENCE patrickbateman.tbl_announcement_id_seq
 ALTER SEQUENCE patrickbateman.tbl_announcement_id_seq OWNER TO lvapi;
 GRANT ALL ON SEQUENCE patrickbateman.tbl_announcement_id_seq TO lvapi;
 
+-- DROP SEQUENCE patrickbateman.tbl_announcement_id_seq1;
+
+CREATE SEQUENCE patrickbateman.tbl_announcement_id_seq1
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+
+-- Permissions
+
+ALTER SEQUENCE patrickbateman.tbl_announcement_id_seq1 OWNER TO lvapi;
+GRANT ALL ON SEQUENCE patrickbateman.tbl_announcement_id_seq1 TO lvapi;
+
 -- DROP SEQUENCE patrickbateman.tbl_attendance_id_seq;
 
 CREATE SEQUENCE patrickbateman.tbl_attendance_id_seq
@@ -106,6 +151,21 @@ CREATE SEQUENCE patrickbateman.tbl_attendance_id_seq
 ALTER SEQUENCE patrickbateman.tbl_attendance_id_seq OWNER TO lvapi;
 GRANT ALL ON SEQUENCE patrickbateman.tbl_attendance_id_seq TO lvapi;
 
+-- DROP SEQUENCE patrickbateman.tbl_attendance_id_seq1;
+
+CREATE SEQUENCE patrickbateman.tbl_attendance_id_seq1
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+
+-- Permissions
+
+ALTER SEQUENCE patrickbateman.tbl_attendance_id_seq1 OWNER TO lvapi;
+GRANT ALL ON SEQUENCE patrickbateman.tbl_attendance_id_seq1 TO lvapi;
+
 -- DROP SEQUENCE patrickbateman.tbl_class_id_seq;
 
 CREATE SEQUENCE patrickbateman.tbl_class_id_seq
@@ -120,6 +180,21 @@ CREATE SEQUENCE patrickbateman.tbl_class_id_seq
 
 ALTER SEQUENCE patrickbateman.tbl_class_id_seq OWNER TO lvapi;
 GRANT ALL ON SEQUENCE patrickbateman.tbl_class_id_seq TO lvapi;
+
+-- DROP SEQUENCE patrickbateman.tbl_class_id_seq1;
+
+CREATE SEQUENCE patrickbateman.tbl_class_id_seq1
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+
+-- Permissions
+
+ALTER SEQUENCE patrickbateman.tbl_class_id_seq1 OWNER TO lvapi;
+GRANT ALL ON SEQUENCE patrickbateman.tbl_class_id_seq1 TO lvapi;
 
 -- DROP SEQUENCE patrickbateman.tbl_feedback_id_seq;
 
@@ -151,6 +226,21 @@ CREATE SEQUENCE patrickbateman.tbl_feedback_id_seq1
 ALTER SEQUENCE patrickbateman.tbl_feedback_id_seq1 OWNER TO lvapi;
 GRANT ALL ON SEQUENCE patrickbateman.tbl_feedback_id_seq1 TO lvapi;
 
+-- DROP SEQUENCE patrickbateman.tbl_feedback_id_seq2;
+
+CREATE SEQUENCE patrickbateman.tbl_feedback_id_seq2
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+
+-- Permissions
+
+ALTER SEQUENCE patrickbateman.tbl_feedback_id_seq2 OWNER TO lvapi;
+GRANT ALL ON SEQUENCE patrickbateman.tbl_feedback_id_seq2 TO lvapi;
+
 -- DROP SEQUENCE patrickbateman.tbl_food_list_id_seq;
 
 CREATE SEQUENCE patrickbateman.tbl_food_list_id_seq
@@ -165,6 +255,21 @@ CREATE SEQUENCE patrickbateman.tbl_food_list_id_seq
 
 ALTER SEQUENCE patrickbateman.tbl_food_list_id_seq OWNER TO lvapi;
 GRANT ALL ON SEQUENCE patrickbateman.tbl_food_list_id_seq TO lvapi;
+
+-- DROP SEQUENCE patrickbateman.tbl_food_list_id_seq1;
+
+CREATE SEQUENCE patrickbateman.tbl_food_list_id_seq1
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+
+-- Permissions
+
+ALTER SEQUENCE patrickbateman.tbl_food_list_id_seq1 OWNER TO lvapi;
+GRANT ALL ON SEQUENCE patrickbateman.tbl_food_list_id_seq1 TO lvapi;
 
 -- DROP SEQUENCE patrickbateman.tbl_food_menu_id_seq;
 
@@ -181,6 +286,21 @@ CREATE SEQUENCE patrickbateman.tbl_food_menu_id_seq
 ALTER SEQUENCE patrickbateman.tbl_food_menu_id_seq OWNER TO lvapi;
 GRANT ALL ON SEQUENCE patrickbateman.tbl_food_menu_id_seq TO lvapi;
 
+-- DROP SEQUENCE patrickbateman.tbl_food_menu_id_seq1;
+
+CREATE SEQUENCE patrickbateman.tbl_food_menu_id_seq1
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+
+-- Permissions
+
+ALTER SEQUENCE patrickbateman.tbl_food_menu_id_seq1 OWNER TO lvapi;
+GRANT ALL ON SEQUENCE patrickbateman.tbl_food_menu_id_seq1 TO lvapi;
+
 -- DROP SEQUENCE patrickbateman.tbl_homework_id_seq;
 
 CREATE SEQUENCE patrickbateman.tbl_homework_id_seq
@@ -195,6 +315,21 @@ CREATE SEQUENCE patrickbateman.tbl_homework_id_seq
 
 ALTER SEQUENCE patrickbateman.tbl_homework_id_seq OWNER TO lvapi;
 GRANT ALL ON SEQUENCE patrickbateman.tbl_homework_id_seq TO lvapi;
+
+-- DROP SEQUENCE patrickbateman.tbl_homework_id_seq1;
+
+CREATE SEQUENCE patrickbateman.tbl_homework_id_seq1
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+
+-- Permissions
+
+ALTER SEQUENCE patrickbateman.tbl_homework_id_seq1 OWNER TO lvapi;
+GRANT ALL ON SEQUENCE patrickbateman.tbl_homework_id_seq1 TO lvapi;
 
 -- DROP SEQUENCE patrickbateman.tbl_medicine_id_seq;
 
@@ -211,6 +346,21 @@ CREATE SEQUENCE patrickbateman.tbl_medicine_id_seq
 ALTER SEQUENCE patrickbateman.tbl_medicine_id_seq OWNER TO lvapi;
 GRANT ALL ON SEQUENCE patrickbateman.tbl_medicine_id_seq TO lvapi;
 
+-- DROP SEQUENCE patrickbateman.tbl_medicine_id_seq1;
+
+CREATE SEQUENCE patrickbateman.tbl_medicine_id_seq1
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+
+-- Permissions
+
+ALTER SEQUENCE patrickbateman.tbl_medicine_id_seq1 OWNER TO lvapi;
+GRANT ALL ON SEQUENCE patrickbateman.tbl_medicine_id_seq1 TO lvapi;
+
 -- DROP SEQUENCE patrickbateman.tbl_message_id_seq;
 
 CREATE SEQUENCE patrickbateman.tbl_message_id_seq
@@ -225,6 +375,21 @@ CREATE SEQUENCE patrickbateman.tbl_message_id_seq
 
 ALTER SEQUENCE patrickbateman.tbl_message_id_seq OWNER TO lvapi;
 GRANT ALL ON SEQUENCE patrickbateman.tbl_message_id_seq TO lvapi;
+
+-- DROP SEQUENCE patrickbateman.tbl_message_id_seq1;
+
+CREATE SEQUENCE patrickbateman.tbl_message_id_seq1
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+
+-- Permissions
+
+ALTER SEQUENCE patrickbateman.tbl_message_id_seq1 OWNER TO lvapi;
+GRANT ALL ON SEQUENCE patrickbateman.tbl_message_id_seq1 TO lvapi;
 
 -- DROP SEQUENCE patrickbateman.tbl_notification_id_seq;
 
@@ -241,6 +406,67 @@ CREATE SEQUENCE patrickbateman.tbl_notification_id_seq
 ALTER SEQUENCE patrickbateman.tbl_notification_id_seq OWNER TO lvapi;
 GRANT ALL ON SEQUENCE patrickbateman.tbl_notification_id_seq TO lvapi;
 
+-- DROP SEQUENCE patrickbateman.tbl_notification_id_seq1;
+
+CREATE SEQUENCE patrickbateman.tbl_notification_id_seq1
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+
+-- Permissions
+
+ALTER SEQUENCE patrickbateman.tbl_notification_id_seq1 OWNER TO lvapi;
+GRANT ALL ON SEQUENCE patrickbateman.tbl_notification_id_seq1 TO lvapi;
+
+-- DROP SEQUENCE patrickbateman.tbl_social_comment_id_seq;
+
+CREATE SEQUENCE patrickbateman.tbl_social_comment_id_seq
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+
+-- Permissions
+
+ALTER SEQUENCE patrickbateman.tbl_social_comment_id_seq OWNER TO postgres;
+GRANT ALL ON SEQUENCE patrickbateman.tbl_social_comment_id_seq TO postgres;
+
+-- DROP SEQUENCE patrickbateman.tbl_social_feed_id_seq;
+
+CREATE SEQUENCE patrickbateman.tbl_social_feed_id_seq
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+
+-- Permissions
+
+ALTER SEQUENCE patrickbateman.tbl_social_feed_id_seq OWNER TO postgres;
+GRANT ALL ON SEQUENCE patrickbateman.tbl_social_feed_id_seq TO postgres;
+GRANT ALL ON SEQUENCE patrickbateman.tbl_social_feed_id_seq TO lvapi;
+
+-- DROP SEQUENCE patrickbateman.tbl_social_like_id_seq;
+
+CREATE SEQUENCE patrickbateman.tbl_social_like_id_seq
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+
+-- Permissions
+
+ALTER SEQUENCE patrickbateman.tbl_social_like_id_seq OWNER TO postgres;
+GRANT ALL ON SEQUENCE patrickbateman.tbl_social_like_id_seq TO postgres;
+
 -- DROP SEQUENCE patrickbateman.tbl_student_id_seq;
 
 CREATE SEQUENCE patrickbateman.tbl_student_id_seq
@@ -255,6 +481,21 @@ CREATE SEQUENCE patrickbateman.tbl_student_id_seq
 
 ALTER SEQUENCE patrickbateman.tbl_student_id_seq OWNER TO lvapi;
 GRANT ALL ON SEQUENCE patrickbateman.tbl_student_id_seq TO lvapi;
+
+-- DROP SEQUENCE patrickbateman.tbl_student_id_seq1;
+
+CREATE SEQUENCE patrickbateman.tbl_student_id_seq1
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+
+-- Permissions
+
+ALTER SEQUENCE patrickbateman.tbl_student_id_seq1 OWNER TO lvapi;
+GRANT ALL ON SEQUENCE patrickbateman.tbl_student_id_seq1 TO lvapi;
 
 -- DROP SEQUENCE patrickbateman.tbl_user_agreement_id_seq;
 
@@ -271,6 +512,21 @@ CREATE SEQUENCE patrickbateman.tbl_user_agreement_id_seq
 ALTER SEQUENCE patrickbateman.tbl_user_agreement_id_seq OWNER TO lvapi;
 GRANT ALL ON SEQUENCE patrickbateman.tbl_user_agreement_id_seq TO lvapi;
 
+-- DROP SEQUENCE patrickbateman.tbl_user_agreement_id_seq1;
+
+CREATE SEQUENCE patrickbateman.tbl_user_agreement_id_seq1
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+
+-- Permissions
+
+ALTER SEQUENCE patrickbateman.tbl_user_agreement_id_seq1 OWNER TO lvapi;
+GRANT ALL ON SEQUENCE patrickbateman.tbl_user_agreement_id_seq1 TO lvapi;
+
 -- DROP SEQUENCE patrickbateman.tbl_weekly_program_id_seq;
 
 CREATE SEQUENCE patrickbateman.tbl_weekly_program_id_seq
@@ -285,6 +541,21 @@ CREATE SEQUENCE patrickbateman.tbl_weekly_program_id_seq
 
 ALTER SEQUENCE patrickbateman.tbl_weekly_program_id_seq OWNER TO lvapi;
 GRANT ALL ON SEQUENCE patrickbateman.tbl_weekly_program_id_seq TO lvapi;
+
+-- DROP SEQUENCE patrickbateman.tbl_weekly_program_id_seq1;
+
+CREATE SEQUENCE patrickbateman.tbl_weekly_program_id_seq1
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+
+-- Permissions
+
+ALTER SEQUENCE patrickbateman.tbl_weekly_program_id_seq1 OWNER TO lvapi;
+GRANT ALL ON SEQUENCE patrickbateman.tbl_weekly_program_id_seq1 TO lvapi;
 -- patrickbateman.tbl_account definition
 
 -- Drop table
@@ -499,24 +770,6 @@ ALTER TABLE patrickbateman.tbl_homework OWNER TO lvapi;
 GRANT ALL ON TABLE patrickbateman.tbl_homework TO lvapi;
 
 
--- patrickbateman.tbl_kindergarden definition
-
--- Drop table
-
--- DROP TABLE patrickbateman.tbl_kindergarden;
-
-CREATE TABLE patrickbateman.tbl_kindergarden (
-	system_id varchar(20) NOT NULL,
-	system_name varchar(20) NOT NULL
-);
-
--- Permissions
-
-ALTER TABLE patrickbateman.tbl_kindergarden OWNER TO postgres;
-GRANT ALL ON TABLE patrickbateman.tbl_kindergarden TO postgres;
-GRANT SELECT ON TABLE patrickbateman.tbl_kindergarden TO lvapi;
-
-
 -- patrickbateman.tbl_medicine definition
 
 -- Drop table
@@ -584,6 +837,69 @@ CREATE TABLE patrickbateman.tbl_notification (
 
 ALTER TABLE patrickbateman.tbl_notification OWNER TO lvapi;
 GRANT ALL ON TABLE patrickbateman.tbl_notification TO lvapi;
+
+
+-- patrickbateman.tbl_social_comment definition
+
+-- Drop table
+
+-- DROP TABLE patrickbateman.tbl_social_comment;
+
+CREATE TABLE patrickbateman.tbl_social_comment (
+	id serial4 NOT NULL,
+	feed_id int4 NULL,
+	user_id int4 NULL,
+	"comment" varchar(250) NULL,
+	username varchar(30) NULL
+);
+
+-- Permissions
+
+ALTER TABLE patrickbateman.tbl_social_comment OWNER TO postgres;
+GRANT ALL ON TABLE patrickbateman.tbl_social_comment TO postgres;
+GRANT ALL ON TABLE patrickbateman.tbl_social_comment TO lvapi;
+
+
+-- patrickbateman.tbl_social_feed definition
+
+-- Drop table
+
+-- DROP TABLE patrickbateman.tbl_social_feed;
+
+CREATE TABLE patrickbateman.tbl_social_feed (
+	id serial4 NOT NULL,
+	feed_id int4 NULL,
+	user_id int4 NULL,
+	img varchar(100) NULL,
+	"comment" varchar(250) NULL,
+	username varchar(30) NULL
+);
+
+-- Permissions
+
+ALTER TABLE patrickbateman.tbl_social_feed OWNER TO postgres;
+GRANT ALL ON TABLE patrickbateman.tbl_social_feed TO postgres;
+GRANT ALL ON TABLE patrickbateman.tbl_social_feed TO lvapi;
+
+
+-- patrickbateman.tbl_social_like definition
+
+-- Drop table
+
+-- DROP TABLE patrickbateman.tbl_social_like;
+
+CREATE TABLE patrickbateman.tbl_social_like (
+	id serial4 NOT NULL,
+	feed_id int4 NULL,
+	user_id int4 NULL,
+	username varchar(30) NULL
+);
+
+-- Permissions
+
+ALTER TABLE patrickbateman.tbl_social_like OWNER TO postgres;
+GRANT ALL ON TABLE patrickbateman.tbl_social_like TO postgres;
+GRANT ALL ON TABLE patrickbateman.tbl_social_like TO lvapi;
 
 
 -- patrickbateman.tbl_student definition
@@ -890,6 +1206,52 @@ ALTER TABLE patrickbateman.view_parent_token OWNER TO lvapi;
 GRANT ALL ON TABLE patrickbateman.view_parent_token TO lvapi;
 
 
+-- patrickbateman.view_social_post_list source
+
+CREATE OR REPLACE VIEW patrickbateman.view_social_post_list
+AS SELECT f.id,
+    f.user_id,
+    f.username,
+    f.img,
+    f.comment AS main_comment,
+    ( SELECT count(*) AS count
+           FROM patrickbateman.tbl_social_like
+          WHERE tbl_social_like.feed_id = f.id) AS like_cnt,
+    ( SELECT count(*) AS count
+           FROM patrickbateman.tbl_social_comment
+          WHERE tbl_social_comment.feed_id = f.id) AS comment_cnt,
+    ( SELECT tbl_social_comment.comment
+           FROM patrickbateman.tbl_social_comment
+          WHERE tbl_social_comment.feed_id = f.id
+          ORDER BY tbl_social_comment.id DESC
+         LIMIT 1) AS comment_1,
+    ( SELECT tbl_social_comment.username
+           FROM patrickbateman.tbl_social_comment
+          WHERE tbl_social_comment.feed_id = f.id
+          ORDER BY tbl_social_comment.id DESC
+         LIMIT 1) AS comment_1_username,
+    ( SELECT tbl_social_comment.comment
+           FROM patrickbateman.tbl_social_comment
+          WHERE tbl_social_comment.feed_id = f.id
+          ORDER BY tbl_social_comment.id DESC
+         OFFSET 1
+         LIMIT 1) AS comment_2,
+    ( SELECT tbl_social_comment.username
+           FROM patrickbateman.tbl_social_comment
+          WHERE tbl_social_comment.feed_id = f.id
+          ORDER BY tbl_social_comment.id DESC
+         OFFSET 1
+         LIMIT 1) AS comment_2_username
+   FROM patrickbateman.tbl_social_feed f
+  ORDER BY f.id DESC;
+
+-- Permissions
+
+ALTER TABLE patrickbateman.view_social_post_list OWNER TO postgres;
+GRANT ALL ON TABLE patrickbateman.view_social_post_list TO postgres;
+GRANT ALL ON TABLE patrickbateman.view_social_post_list TO lvapi;
+
+
 -- patrickbateman.view_student_info source
 
 CREATE OR REPLACE VIEW patrickbateman.view_student_info
@@ -913,8 +1275,8 @@ AS SELECT a.id,
     a.surname,
     a.username,
     COALESCE(c.name, 'Yok'::character varying) AS class_name
-   FROM tbl_account a
-     LEFT JOIN tbl_class c ON c.id = a.class_id
+   FROM patrickbateman.tbl_account a
+     LEFT JOIN patrickbateman.tbl_class c ON c.id = a.class_id
   WHERE a.account_type = 0;
 
 -- Permissions
@@ -979,10 +1341,8 @@ $function$
 -- Permissions
 
 ALTER FUNCTION patrickbateman.insert_random_notification() OWNER TO lvapi;
+GRANT ALL ON FUNCTION patrickbateman.insert_random_notification() TO public;
 GRANT ALL ON FUNCTION patrickbateman.insert_random_notification() TO lvapi;
 
 
--- Permissions
-
-GRANT ALL ON SCHEMA patrickbateman TO postgres;
-GRANT ALL ON SCHEMA patrickbateman TO public;
+-- Permissions;
